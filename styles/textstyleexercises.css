@@ -1,0 +1,87 @@
+.tahoma-font{
+  font-family: tahoma;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.biggest-deals{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bolder;
+  width:280px;
+  margin-top:50px
+}
+.sales{
+  font-size:15px;
+  font-style: italic;
+  color:palevioletred;
+  line-height: 25px;
+}
+.text-title{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana;
+  width: 280px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.text-content{
+  color: rgb(96,96,96);
+  font-size: 14px;
+  font-family: Verdana;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+.text-description{
+  color: black;
+  font-size: 14px;
+  font-family: Verdana;
+  width: 270px;
+}
+.get-button{
+  background-color: rgb(42, 135, 13);
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  border-radius: 5px;
+}
+.get-button:hover{
+  cursor: pointer;
+  opacity: 0.85;
+}
+.get-button:active{
+  opacity: 0.5;
+}
+
+.title{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+.content{
+  font-family: Arial;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 50px;
+}
+.learnmore{
+  font-family: Arial;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 25px;
+  color:blue;
+}
+.learnmore:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
