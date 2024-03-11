@@ -1,244 +1,46 @@
-<title> LESSON 2 CSS BASICS </title>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> LESSON 2 CSS BASICS </title>
+  </head>
+  <body>
+    <h1> LESSON 2 CSS BASICS </h1>
+    <button class="subscribe-button"> 
+      SUBSCRIBE
+    </button>
+    
+    <button class="join-button">
+      JOIN
+    </button>
+    
+    <button class="tweet-button">
+      Tweet
+    </button>
+    
+    <h2> CSS BASICS EXERCISES </h2>
+    
+    
+    <p>For Uber</p>
+    <button class="request-button">Request now</button>
+    <br>
+    
+    <p>For Amazon</p>
+    <button class="addtocart-button">Add to Cart</button>
+    <br>
+    
+    <p>For GitHub</p>
+    <button class="signup-button">Sign Up</button>
+    <br>
+    
+    <p>For Bootstrap</p>
+    <button class="getstarted-button">Get Started</button>
+    <button class="download-button">Download</button>
+    <br>
+    
+    <p>For LinkedIn</p>
+    <button class="apply-button">Apply on company website</button>
+    <button class="save-button">Save</button>    
+  </body>
+</html>
 
-<h1> LESSON 2 CSS BASICS </h1>
 
-<style> 
-  .subscribe-button {
-    background-color: rgb(207, 4, 4);
-    color: white;
-    border: none;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right:8px;
-    transition: opacity 0.8s;
-  }
-
-.subscribe-button:hover {
-  opacity: 0.8;
-}
-
-.subscribe-button:active {
-  opacity: 0.5;
-}
-
-  .join-button {
-    background-color: rgb(254, 254, 254);
-    color: rgb(11, 87, 238);
-    padding-left: 20px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-right: 20px;
-    border-radius: 2px;
-    border-style: solid;
-    border-width: 1px;
-    border-color:rgb(11, 87, 238);
-    cursor: pointer;
-    margin-right:8px;
-    transition: background-color 0.15s,
-                color 0.15s;
-  }
-
-  .join-button:hover {
-    background-color: rgb(11, 87, 238);
-    color: white;
-  }
-  
-  .join-button:active {
-    opacity: 0.5;
-  }
-
-  .tweet-button {
-    background-color:rgb(11, 181, 238);
-    color: white;
-    border: none;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border-radius: 18px;
-    border-color:aqua;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 15px;
-    transition: box-shadow 0.15s; 
-  }
-
-  .tweet-button:hover {
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
-  }
-</style>
-
-<button class="subscribe-button"> 
-  SUBSCRIBE
-</button>
-
-<button class="join-button">
-  JOIN
-</button>
-
-<button class="tweet-button">
-  Tweet
-</button>
-
-<h2> CSS BASICS EXERCISES </h2>
-
-<style>
-  .request-button {
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: 0.15s;
-  }
-  .request-button:hover {
-    opacity: 0.7;
-  }
-  .addtocart-button {
-    background-color: rgba(255,216,20);
-    color: black;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border: none;
-    border-radius: 55px;
-    font-weight: 400;
-    cursor: pointer;
-    transition: background-color 0.15s;
-  }
-  .addtocart-button:hover{
-    background-color: rgb(212, 181, 26);
-  }
-  .signup-button {
-    background-color: rgb(46,164,79);
-    color: white;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: box-shadow 0.15s;
-  }
-  .signup-button:hover{
-      box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
-  }
-  .getstarted-button {
-    background-color: blueviolet;
-    color: white;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border:none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-right: 6px;
-    transition: background-color 0.15s;
-  }
-  .getstarted-button:hover{
-    background-color: rgb(106, 31, 177);
-  }
-  .download-button {
-    background-color: white;
-    color:blueviolet;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border-width: 1px;
-    border-color: blueviolet;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.15s,opacity 0.15s,
-      color 0.15s;
-  }
-  .download-button:hover{
-    background-color: rgb(95, 57, 130);
-    color:white;
-  }
-  .download-button:active{
-    opacity: 0.6;
-  }
-  .apply-button{
-    background-color: rgb(10,102,194);
-    color: white;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border: none;
-    border-radius: 110px;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.15s,opacity 0.15s;
-  }
-  .apply-button:hover{
-    background-color: rgb(12, 79, 146);
-  }
-  .apply-button:active{
-    opacity: 0.6;
-  }
-  .save-button{
-    background-color: white;
-    color: rgb(10,102,194);
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border-width: 1px;
-    border-color: rgb(10,102,194);
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    margin-left: 6px;
-    transition: opacity 0.15s,background-color 0.15s,color 0.15s;
-  }
-
-  .save-button:hover{
-    background-color: rgb(6, 73, 140);
-    color:white;
-    opacity:0.8;
-  }
-
-  .save-button:active{
-    opacity: 0.5;
-  }
-
-</style>
-
-<p>For Uber</p>
-<button class="request-button">Request now</button>
-<br>
-
-<p>For Amazon</p>
-<button class="addtocart-button">Add to Cart</button>
-<br>
-
-<p>For GitHub</p>
-<button class="signup-button">Sign Up</button>
-<br>
-
-<p>For Bootstrap</p>
-<button class="getstarted-button">Get Started</button>
-<button class="download-button">Download</button>
-<br>
-
-<p>For LinkedIn</p>
-<button class="apply-button">Apply on company website</button>
-<button class="save-button">Save</button>
