@@ -1,0 +1,136 @@
+img{
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.sample{
+  width:250px;
+  margin-left: 50px;
+  border-radius: 15px;
+  border-color: red;
+  border-style: solid;
+}
+
+.sample1{
+  width: 142px;
+  height: 142px;
+  border-color: red;
+  border-style: solid;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sample2{
+  width: 142px;
+  height: 142px;
+  border-radius: 100px;
+  border-color: red;
+  border-style: solid;
+  object-fit: cover;
+  object-position: center;
+}
+
+.search-bar{
+  width:50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 180px;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+.google-bar{
+  border:none;
+  border-radius: 20px;
+  width:230px;
+  padding-left: 10px;
+  padding-right: 100px;
+  box-shadow: 0px 0px 5px rgba(84, 82, 82, 0.2);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: box-shadow 0.15s;
+}
+.google-bar:hover{
+  box-shadow: 0px 0px 15px rgba(57, 53, 53, 0.2);;
+}
+.email-header {
+  font-family: Arial;
+  color:grey;
+  margin-bottom: 0px;
+  line-height: 30px;
+  font-weight: 800px;
+  font-size: 12px;
+}
+.email-content{
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1.5px;
+  width: 295px;
+  margin-top:0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.user-agreement{
+  font-size: 12px;
+  font-family:Arial;
+  font-weight: 800px;
+  color: grey;
+}
+.agree-button{
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  background-color: rgb(19, 83, 151);
+  color:white;
+  border-radius: 20px;
+  transition: opacity .5s;
+}
+.agree-button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.profilepic{
+  width:100px;
+  height: 100px;
+  margin-top: 0px;
+  margin-right: 0px;
+  border-radius: 50px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+}
+.textbox1 {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 250px;
+}
+.tweet1{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.tweet1:hover{
+  cursor: pointer;
+}
