@@ -1,0 +1,53 @@
+h1 {
+  font-family: Arial;
+  font-weight: 600px;
+  font-style: normal;
+}
+input{
+  font-size: 15px;
+  width: 315px;
+  padding-left: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(241, 239, 239);
+  border: none;
+  color: grey;
+}
+.location{
+  display: block;
+  margin-bottom: 5px;
+}
+.destination{
+  margin-bottom: 24px;
+  display: block;
+}
+button{
+  transition: box-shadow 0.5s,cursor 0.5s;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 6px rgba(35, 62, 71, 0.7);
+}
+.now{
+  color: white;
+  background-color: black;
+  border: none;
+  padding-top: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 14px;
+  width:120px;
+}
+.later{
+  margin-left: 10px;
+  color: black;
+  background-color: rgb(241, 239, 239);
+  border: none;
+  padding-top: 14px;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-bottom: 14px;
+  width:140px;
+}
+
+
