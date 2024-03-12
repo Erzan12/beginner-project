@@ -22,6 +22,11 @@ input{
   display: block;
 }
 button{
+  border: none;
+  padding-top: 14px;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-bottom: 14px;
   transition: box-shadow 0.5s,cursor 0.5s;
 }
 button:hover{
@@ -31,22 +36,12 @@ button:hover{
 .now{
   color: white;
   background-color: black;
-  border: none;
-  padding-top: 14px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 14px;
   width:120px;
 }
 .later{
   margin-left: 10px;
   color: black;
   background-color: rgb(241, 239, 239);
-  border: none;
-  padding-top: 14px;
-  padding-left:10px;
-  padding-right: 10px;
-  padding-bottom: 14px;
   width:140px;
 }
 
