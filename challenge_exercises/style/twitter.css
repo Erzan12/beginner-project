@@ -1,13 +1,13 @@
 div{
   width: 100px;
   height: 100px;
-  
   font-family: arial;
 }
 p {
   font-family: arial;
   margin-top: 0;
   margin-bottom: 0;
+  font-style: normal;
 }
 .twittercat{
   width: 420px;
@@ -90,24 +90,18 @@ button:hover{
   padding-top: 10px;
   padding-left: 10px;
   font-size: 18px;
-  font-family: Arial;
-  font-style: normal;
   font-weight: bold;
   line-height: 25px;
 }
 .mutual{
   color: grey;
   padding-left: 10px;
-  font-family: Arial;
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   margin-bottom: 8px;
 }
 .adds{
   margin-left: 10px;
-  font-family: Arial;
-  font-style: Normal;
   font-weight: 600;
   padding-top: 8px;
   padding-left: 25px;
