@@ -24,7 +24,6 @@ input {
   margin-bottom: 30px;
 }
 input:hover{
-  cursor: pointer;
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.2);
 }
 
